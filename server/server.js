@@ -42,7 +42,7 @@ function serverTime() {
 const io = require("socket.io")(server, {
   path: "/api/v1/socket.io",
   cors: {
-    origin: ["https://admin.socket.io", "http://localhost:5173"],
+    origin: ["https://admin.socket.io", "http://localhost:5173", "https://realtime-note-sharing-app.vercel.app"],
     credentials: true,
   },
 });

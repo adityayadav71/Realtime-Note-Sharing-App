@@ -33,6 +33,7 @@ app.use(
       "https://admin.socket.io",
       "http://127.0.0.1:5173",
       "http://localhost:5173",
+      "https://realtime-note-sharing-app.vercel.app"
     ],
     credentials: true,
   })
